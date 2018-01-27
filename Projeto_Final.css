@@ -1,0 +1,144 @@
+/*http://pxtoem.com*/
+*{
+    text-decoration: none;
+    text-decoration-style: none;
+}
+body { width: 100%; margin:0; font-family: 'Ubuntu', sans-serif; line-height: 1.5;}
+     
+/*div { padding: 1em 2em; }*/
+
+
+
+/*****CABEÇALHO*****/
+
+#cabecalho { background-color: #54534F; color: #000000; position:fixed; top:0; left:0; width: 100%; height: 4.688em;}
+
+#cabecalho h1 {margin:0.000em;}
+
+#cabecalho a { text-decoration: none; color: black;}
+
+#cabecalho h1 a:hover {text-decoration: none; color: #D3291E;}
+
+
+#cabecalho ul {
+                list-style-type: none;
+                padding-left: 0;
+                float: left;  
+              }
+
+
+#cabecalho li {
+                display:inline-block;
+                margin-right: 5em;
+                background-color: #871A13;
+                padding: 0.5em 1em;
+                cursor: pointer;
+                border-radius: 50%;
+              }
+
+
+#cabecalho li:hover { background-color: #D3291E; color: #000000;}
+
+
+#cabecalho div { float: right; margin-right: 3.125em; padding-top: 1.563em;}
+
+
+#cabecalho h1 a{ margin: 0.625em; margin-right: 3em; color: #871a13; float: left; }
+ }
+
+/*****BUTTON'S*****/
+button { 
+            border-radius: 0.750em;
+            border-color: #871a13;
+            background: #54534F ;
+            background-color: #871a13;
+            color: black;
+            cursor: pointer;
+            border-style: none;
+            border-top-width: 0.125em;
+            width: 4.500em;
+            height: 2.000em;
+ }
+button:hover {
+                background-color: #D3291E;
+                color: #000000;
+}
+
+
+/*****PRINCIPAL*****/
+
+
+#Principal {margin-top: 3.750em; background-color:#94938c; color: #ffffff; width: 79.938em;}
+
+#Principal div { padding: 1em 2em;}
+
+
+#Bem_Vindos { margin-top: 4.688em; background-color:#94938c; color: #ffffff; width: 79.438em;;}
+
+#Bem_Vindos p { margin-bottom: 0.000em; background-color:#94938c; color: #ffffff; width: 100%;}
+
+
+#Quem_Somos { margin-top: 3.125em; background-color:#94938c;color: #ffffff; width: 100%;}
+
+#Quem_Somos p.titulo { margin-top: 0.000em; background-color:#94938c;color: #ffffff; width: 100%;}
+
+
+#Quem_Somos img{ display: block; margin-left: auto; margin-right: auto; margin-top: 6.250em; margin-bottom: 6.250em;}
+   
+
+
+p img {display: block; margin-left: auto; margin-right: auto; width: 62.500em;}
+
+
+#Bem_Vindos .titulo{ font-size:3.125em; margin-top: 0.000em;text-align: center; width: 100%; }
+
+
+#Quem_Somos .titulo{ font-size:3.125em; margin-top: 6.250em; text-align: center; width: 100%; }
+
+/*#Quem_Somos p {width: 1235px;}*/
+
+#manu {width: 500px; height: 500px;}
+
+
+           
+/*****Barra Final*****/
+
+#Barra_Final {background-color:#54534F; color: #ffffff;  width: 79.438em;; padding: 1em 2em;}
+
+#link {background-color:#54534F; text-align: center; color: #ffffff; height: 7.500em; width: 100%;}
+
+#link ul { display: inline-block; vertical-align: top; width: 100%;}
+
+
+#link a:visited { color:#871a13; }
+#link a:hover { color: #D3291E;}
+#link a:link {color: #871a13;}
+         
+
+#fim {margin-top: 1.875em; background-color:#54534F; color: #E6E2AF; padding-left: 0.000em; color: #ffffff; width: 100%;}
+
+
+@media (max-width:970px) {
+
+
+#cabecalho div { width: 100px; height: 50px; margin-right: 100px;}
+
+#Cabecalho {width: 59.688em;}
+
+#Cabecalho li{padding: 0.5em 1em;}
+
+button {margin-right: 50px;}
+
+#Principal {width: 57.938em;}
+
+#Bem_Vindos {width: 90%;}
+
+#Quem_Somos {width: 90%;}
+
+#Barra_Final {width: 57.938em;}
+
+#Principal img { width: 500px; height: 150px;}
+
+img#manu {width: 500px; height: 500px;}
+    
+}
